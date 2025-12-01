@@ -114,7 +114,7 @@ Multimodal-Threat-Detection/
 
 **Mikkilineni Sai Krishna Nithin**
 
-* **GitHub:** [View My Projects](https://github.com/YOUR_GITHUB_USERNAME)
+* **GitHub:** [View My Projects](https://github.com/nithin-mikkilineni)
 * **LinkedIn:** [Connect on LinkedIn](https://www.linkedin.com/in/sai-krishna-nithin-mikkilineni-544a86255)
 
 ---
