@@ -1,0 +1,6 @@
+help
+like
+palm
+peace
+peace_inverted
+three
