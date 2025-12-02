@@ -109,7 +109,15 @@ Multimodal-Threat-Detection/
     ├── gesture_model_multiclass.h5 # Pre-trained Vision Model
     └── class_labels.txt      # Class mappings
 ```
+---
+## 🚧 Challenge Overcame: System Modularity
 
+The most significant technical hurdle in this project was integrating two distinct deep learning modalities—Audio Keyword Spotting and Visual Gesture Recognition—into a unified system.
+
+* **The Problem:** Initially, combining the TensorFlow-based audio processing and MediaPipe vision pipelines into a single monolithic script caused resource contention. Specifically, shared state management for the Twilio API caused conflicting alert cooldowns, and debugging specific failures became nearly impossible.
+* **The Solution:** I refactored the application into a **strict modular architecture**, decoupling the Audio and Vision logic into isolated sub-packages (`audio_module` and `vision_module`).
+* **The Result:** I designed a central 'Dashboard' controller (`main.py`) that manages shared resources dynamically. This eliminated cross-dependency conflicts and allowed for independent optimization of each biometric stream.
+ 
 ## 👨‍💻 Author
 
 **Mikkilineni Sai Krishna Nithin**
